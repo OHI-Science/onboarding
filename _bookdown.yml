@@ -1,0 +1,10 @@
+book_filename: "Ocean Health Index Onboarding"
+language:
+  ui:
+    chapter_name: "Chapter "
+rmd_files: [
+  "index.Rmd",
+  "overview.Rmd", # session 1
+ ]
+delete_merged_file: true
+output_dir: "docs"
