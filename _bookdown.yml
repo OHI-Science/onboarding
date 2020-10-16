@@ -8,7 +8,8 @@ rmd_files: [
   "learn.Rmd",
   "plan.Rmd",
   "conduct.Rmd",
-  "inform.Rmd"
+  "inform.Rmd",
+  "global.Rmd"
  ]
 delete_merged_file: true
 output_dir: "docs"

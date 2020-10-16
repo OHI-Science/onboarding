@@ -1,3 +1,5 @@
-# Learn about OHI {#plan}
+# Plan your assessment {#plan}
 
-Orient to OHI: “goals”, “scores”, pressure/resil,
+Next, you'll need to think about your stakeholders and your team. 
+
+- https://ohi-science.org/plan/

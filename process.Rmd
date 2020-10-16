@@ -1,7 +1,26 @@
 # Overview of the OHI Process {#process}
 
+
+[Three Lessons for Using the Global Ocean Health Index to Assess Local Oceans](https://ohi-science.org/news/three-lessons-global)
+
 Orient to the process: Learn > Conduct > etc
  PeerJ Fig 1, team roles, seaside chats, have meeting notes, write down decisions, etc. “structured approach”. 
  OHI+ examples 
 Onboarding 
-transparency, stakeholder engagement, teams open data science
+transparency, stakeholder engagement, teams open data science (openscapes)
+
+This process is summarized on the [ohi-science.org OHI+ page](https://ohi-science.org/projects/ohi-plus/).
+
+## Transparency 
+
+- [On Building Transparency and Trust for Healthy New England Seas](https://ohi-science.org/news/transparent-trust-new-england-seas)
+
+## Open data science
+
+- [Open data science for marine management](https://ohi-science.org/news/ohi-and-open-data-science) (blog)
+- [What does scientific reproducibility look like?](https://ohi-science.org/news/scientific-reproducibility-with-fellows) (blog)
+- [The OHI Toolbox is useful far beyond ocean management](https://ohi-science.org/news/what-is-the-ohi-toolbox) (blog)
+
+## Getting help
+
+https://ohi-science.org/resources/forum/ 

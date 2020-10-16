@@ -1,3 +1,16 @@
-# Learn about OHI {#conduct}
+# Conduct your assessment {#conduct}
 
-Orient to OHI: “goals”, “scores”, pressure/resil,
+Other training resources are linked from the [ohi-science.org training page](https://ohi-science.org/training/). 
+
+OHI toolbox
+
+http://ohi-science.org/data-science-training/
+
+https://ohi-science.org/manual/ 
+
+
+The best place to start is with the [OHI Toolbox-training](http://ohi-science.org/toolbox-training/).
+
+The [OHI Manual](https://ohi-science.org/manual/) is a good reference document as well. (A bit of history: this is how the whole ohi-science.org website started; this was originally a PDF created from a Word Doc that we would email to interested groups).
+
+
