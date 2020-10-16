@@ -1,0 +1,7 @@
+# Overview of the OHI Process {#process}
+
+Orient to the process: Learn > Conduct > etc
+ PeerJ Fig 1, team roles, seaside chats, have meeting notes, write down decisions, etc. “structured approach”. 
+ OHI+ examples 
+Onboarding 
+transparency, stakeholder engagement, teams open data science

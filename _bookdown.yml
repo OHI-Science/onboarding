@@ -4,7 +4,11 @@ language:
     chapter_name: "Chapter "
 rmd_files: [
   "index.Rmd",
-  "overview.Rmd", # session 1
+  "process.Rmd",
+  "learn.Rmd",
+  "plan.Rmd",
+  "conduct.Rmd",
+  "inform.Rmd"
  ]
 delete_merged_file: true
 output_dir: "docs"
