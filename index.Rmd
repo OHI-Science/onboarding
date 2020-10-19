@@ -16,15 +16,22 @@ Hello! This book has onboarding resources for the Ocean Health Index (OHI). It i
 
 ## What is this book?
 
-This book aims to help you get "on board" with Ocean Health Index (OHI) methods and practices. There are a lot of moving pieces to leading your own OHI assessment - called OHI+ - and it's important to set yours up in a way that is organized and collaborative, expecting that team members might change and that methods might be revisited. So building in resilience and focusing on documentation and sharing from the beginning is critical. 
+This book aims to help you get "on board" with Ocean Health Index (OHI) methods and practices. There are a lot of moving pieces to leading your own OHI+ assessment and it's important to set yours up in a way that is organized and collaborative, expecting that team members might change and that methods might be revisited. So building in resilience and focusing on documentation and sharing from the beginning is critical. 
 
 <!---Note: this roadmap is to help you lead your own OHI+ assessment. Something about OHI-Go https://ohi-science.org/projects/ohi-go/--->
 
+## Learning Roadmap
+
+This book helps orient you to OHI resources and suggests an order that you read and watch them. Most resources are hosted at <http://ohi-science.org>. 
+
+We suggest looking through each chapter of this book at the resources available, and creating a learning plan for your timeline. Below is a suggested example. *in progress*
+
+<!---
 Orient to the book, the websites, “github repos”
 Ohi-science.org incl ohi-global, OHI+ websites.
 Oceanhealthindex.org? Website
 books
-
+--->
 
 <!---
 
