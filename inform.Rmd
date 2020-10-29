@@ -1,3 +1,5 @@
 # Inform {#inform}
 
+Who should read this chapter:
+
 https://ohi-science.org/inform/

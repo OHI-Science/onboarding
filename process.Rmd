@@ -1,33 +1,38 @@
-# Overview of the OHI Process {#process}
+# The OHI Assessment Process {#process}
 
-The OHI process has 4 step: Learn, Plan, Conduct, and Inform. These steps are are overlapping and iterative: as you plan your assessment you will continue to learn, as you conduct your assessment you will need to modify your plan and keep team members and stakeholders informed. 
+Who should read this chapter: everyone on the OHI+ assessment team.
 
-## Learning Roadmap
+## Overview of the OHI Process
 
-[Three Lessons for Using the Global Ocean Health Index to Assess Local Oceans](https://ohi-science.org/news/three-lessons-global)
+The OHI process has 4 steps: Learn, Plan, Conduct, and Inform. These steps are are overlapping and iterative: as you plan your assessment you will continue to learn, as you conduct your assessment you will need to modify your plan and keep team members and stakeholders informed.
 
-Orient to the process: Learn > Conduct > etc
- PeerJ Fig 1, team roles, seaside chats, have meeting notes, write down decisions, etc. “structured approach”. 
- OHI+ examples 
-Onboarding 
-transparency, stakeholder engagement, teams open data science (openscapes)
+The OHI follows a very structured approach. There are core elements and approaches that you will not change and tailorable elements so that you can fit your needs. It's important to begin your OHI+ assessment in a way that organized and collaborative, expecting that team members might change and that methods might be revisited. So building in resilience (i.e. avoid having only one person who knows X) and focusing on documentation and sharing from the beginning is critical. 
+
+1.  (Review NEP talk)
+
+1.  Read [Best practices for assessing ocean health in multiple contexts using tailorable frameworks](https://peerj.com/articles/1503) (Lowndes et al 2015, PeerJ). This will provide an overview of what's involved with leading an OHI assessment and what to think about as you begin.
+
+1. Read [Three Lessons for Using the Global Ocean Health Index to Assess Local Oceans](https://ohi-science.org/news/three-lessons-global). <!---text here--->
+
+Teams.
+
+
+ team roles, seaside chats, have meeting notes, write down decisions, etc. "structured approach". OHI+ examples Onboarding transparency, stakeholder engagement, teams open data science (openscapes)
 
 This process is summarized on the [ohi-science.org OHI+ page](https://ohi-science.org/projects/ohi-plus/).
 
-
 ## Getting help
 
-https://ohi-science.org/resources/forum/ 
+<https://ohi-science.org/resources/forum/>
 
+## Further reading
 
-## Further reading 
+### Transparency
 
-### Transparency 
-
-- [On Building Transparency and Trust for Healthy New England Seas](https://ohi-science.org/news/transparent-trust-new-england-seas)
+-   [On Building Transparency and Trust for Healthy New England Seas](https://ohi-science.org/news/transparent-trust-new-england-seas)
 
 ### Open data science
 
-- [Open data science for marine management](https://ohi-science.org/news/ohi-and-open-data-science) (blog)
-- [What does scientific reproducibility look like?](https://ohi-science.org/news/scientific-reproducibility-with-fellows) (blog)
-- [The OHI Toolbox is useful far beyond ocean management](https://ohi-science.org/news/what-is-the-ohi-toolbox) (blog)
+-   [Open data science for marine management](https://ohi-science.org/news/ohi-and-open-data-science) (blog)
+-   [What does scientific reproducibility look like?](https://ohi-science.org/news/scientific-reproducibility-with-fellows) (blog)
+-   [The OHI Toolbox is useful far beyond ocean management](https://ohi-science.org/news/what-is-the-ohi-toolbox) (blog)

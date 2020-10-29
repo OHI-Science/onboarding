@@ -1,5 +1,7 @@
 # Conduct your assessment {#conduct}
 
+Who should read this chapter:
+
 Other training resources are linked from the [ohi-science.org training page](https://ohi-science.org/training/). 
 
 OHI toolbox
@@ -7,6 +9,12 @@ OHI toolbox
 http://ohi-science.org/data-science-training/
 
 https://ohi-science.org/manual/ 
+
+## Overview
+
+1.  Read [Our path to better science in less time using open data science tools](https://www.nature.com/articles/s41559-017-0160) (Lowndes et al 2017, Nature Ecology & Evolution). This will provide an overview of how we use the OHI Toolbox and why.
+
+
 
 
 The best place to start is with the [OHI Toolbox-training](http://ohi-science.org/toolbox-training/).

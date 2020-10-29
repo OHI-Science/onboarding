@@ -1,5 +1,8 @@
 # Plan your assessment {#plan}
 
+Who should read this chapter:
+
 Next, you'll need to think about your stakeholders and your team. 
 
 - https://ohi-science.org/plan/
+
