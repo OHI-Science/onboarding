@@ -1,8 +1,4 @@
-# The OHI Assessment Process {#process}
-
-Who should read this chapter: everyone on the OHI+ assessment team.
-
-## Overview of the OHI Process
+# The OHI Process {#process}
 
 The OHI process has 4 steps: Learn, Plan, Conduct, and Inform. These steps are are overlapping and iterative: as you plan your assessment you will continue to learn, as you conduct your assessment you will need to modify your plan and keep team members and stakeholders informed.
 
@@ -12,7 +8,7 @@ The OHI follows a very structured approach. There are core elements and approach
 
 1.  Read [Best practices for assessing ocean health in multiple contexts using tailorable frameworks](https://peerj.com/articles/1503) (Lowndes et al 2015, PeerJ). This will provide an overview of what's involved with leading an OHI assessment and what to think about as you begin.
 
-1. Read [Three Lessons for Using the Global Ocean Health Index to Assess Local Oceans](https://ohi-science.org/news/three-lessons-global). <!---text here--->
+1. Read [Three Lessons for Using the Global Ocean Health Index to Assess Local Oceans](https://ohi-science.org/news/three-lessons-global). (Seifert 2019). "Three interrelated things seem to stand out: include the right people from the start, fit the framework to the place, and align with existing regional efforts."
 
 1.  Read [Operationalizing better science in less time](https://docs.google.com/presentation/d/1OHe4C2B9cGnT9niSguXwsWiK0M2sDsdeNjTOLWAgBX4/edit?usp=sharing). These slides describe how OHI is about environmental assessments, but it's also about open data science and empowerment, resilience, and inclusion and the importance of teamwork. 
 
