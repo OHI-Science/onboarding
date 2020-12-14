@@ -14,42 +14,18 @@ description: "This is onboarding learning roadmap to lead Ocean Health Index ass
 
 Hello! This book aims to help you get "on board" with Ocean Health Index (OHI) methods and practices as you lead your own independent OHI assessment (OHI+). 
 
-It is organized in the same way as the [OHI+ page](https://ohi-science.org/projects/ohi-plus/): Learn, Plan, Conduct, and Inform.
+
+<!---Note: this roadmap is to help you lead your own OHI+ assessment. Something about OHI-Go https://ohi-science.org/projects/ohi-go/--->
 
 ## Learning Roadmap
 
-This book is an annotated learning roadmap for groups that are interested in leading your own OHI+ assessment. It helps orient you to OHI resources and suggests an order that you read and watch them. Most resources are hosted at <http://ohi-science.org> and our [OHI-Science YouTube Channel](https://www.youtube.com/channel/UCWKfLAbARCmxmzqyaF-ROdg/videos)
+This book is an annotated learning roadmap for groups that are interested in leading your own OHI+ assessment. It helps orient you to OHI resources and suggests an order that you read and watch them. Most resources are hosted at <http://ohi-science.org>. 
 
+Each chapter begins with information about who should read the chapter. 
 
-```{r, message=FALSE, echo=FALSE}
-library(tidyverse)
-library(googlesheets4) # install.packages("googlesheets4")
-library(gt) # install.packages("gt")
-
-## read sheet from shared OHI Google Folder
-sched_sheet <- read_sheet("https://docs.google.com/spreadsheets/d/1JCY6DIeNs1NjouehLYm32Ulq2XCOCaWx5vBpuhsgKbg/edit#gid=0")
-
-```
-
-```{r, echo=FALSE}
-sched <- sched_sheet %>%
-  select(topic, action, `length (minutes)`) %>%
-  filter(!is.na(topic))
-
-sched %>% gt()
-
-```
-
-
-
-
-
-<!---
 We suggest looking through each chapter of this book at the resources available, and creating a learning plan for your timeline. Below is a suggested example. *upcoming*
 
-
-
-
+<!---
 Orient to the book, the websites, “github repos”
 Ohi-science.org incl ohi-global, OHI+ websites.
 Oceanhealthindex.org? Website
