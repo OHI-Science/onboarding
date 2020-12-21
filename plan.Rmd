@@ -1,4 +1,4 @@
-# The OHI Process {#process}
+# Plan: The OHI Process {#process}
 
 The OHI process has 4 steps: Learn, Plan, Conduct, and Inform. These steps are are overlapping and iterative: as you plan your assessment you will continue to learn, as you conduct your assessment you will need to modify your plan and keep team members and stakeholders informed.
 

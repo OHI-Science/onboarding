@@ -4,9 +4,9 @@ language:
     chapter_name: "Chapter "
 rmd_files: [
   "index.Rmd",
-  "what-is-ohi.Rmd",
-  "ohi-process.Rmd",
-  "conduct-your-assessment.Rmd",
+  "learn.Rmd",
+  "plan.Rmd",
+  "conduct.Rmd",
   "inform.Rmd",
   "global.Rmd"
  ]

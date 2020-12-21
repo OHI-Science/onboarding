@@ -1,4 +1,4 @@
-# What is the Ocean Health Index? {#ohi}
+# Learn: What is the Ocean Health Index? {#learn}
 
 The Ocean Health Index (OHI) is a [goal forward approach](https://ohi-science.org/news/goal-forward-approach)
 
