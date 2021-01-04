@@ -19,7 +19,9 @@ knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
 
 Hello! This book aims to help you get "on board" with Ocean Health Index (OHI) methods and practices as you lead your own independent OHI assessment (OHI+). 
 
-It helps orient you to OHI resources and suggests an order that you read and watch them. Book chapters are organized in the same way as we introduce [OHI+ assessments](https://ohi-science.org/projects/ohi-plus/): Learn, Plan, Conduct, and Inform. Most resources are hosted at <http://ohi-science.org> and our [OHI-Science YouTube Channel](https://www.youtube.com/channel/UCWKfLAbARCmxmzqyaF-ROdg/videos)
+It helps orient you to OHI resources and suggests an order that you read and watch them. Book chapters are organized in the same way as we introduce [OHI+ assessments](https://ohi-science.org/projects/ohi-plus/): Learn, Plan, Conduct, and Inform. Most resources are hosted at <http://ohi-science.org> and [OHI-Science YouTube](https://www.youtube.com/channel/UCWKfLAbARCmxmzqyaF-ROdg/videos).
+
+Below is the OHI Onboarding Roadmap with quick links to each lesson; review specific Chapters for more details.
 
 
 ```{r}
@@ -27,9 +29,8 @@ library(tidyverse)
 library(googlesheets4) # install.packages("googlesheets4")
 library(gt) # install.packages("gt")
 library(janitor) # install.packages("janitor")
-library(kableExtra)
 
-# ## read sheet from shared OHI Google Folder
+## read sheet from shared OHI Google Folder
 # sched_sheet <- read_sheet("https://docs.google.com/spreadsheets/d/1JCY6DIeNs1NjouehLYm32Ulq2XCOCaWx5vBpuhsgKbg/edit#gid=0")
 # 
 # # save local copy, overwrite anytime read from googlesheets4
@@ -42,33 +43,27 @@ sched_sheet <- read_csv("schedule_sheet.csv")
 ```{r}
 sched <- sched_sheet %>%
   janitor::clean_names(case = "title") %>%
-  select(Chapter, Topic, Action, Minutes) %>%
   mutate(Chapter = str_to_title(Chapter)) %>%
-  # mutate(Chapter = str_glue("\\@ref {Chapter}")) %>%
+  # mutate(Action = str_replace(Action, "watch", "view")) %>%
+  select(Chapter, Topic, Action, Minutes, Status) %>% # add links
   filter(!is.na(Chapter))
 
-# sched_gt <- sched %>% 
-#   group_by(Chapter) %>%
-#   gt() %>%
-#   tab_header(title = "OHI Onboarding Roadmap")
-
-#sched_gt   
-
-  ## tried row grouping but not visually appealing  
-  # tab_row_group(group = "Learn about OHI", rows = Chapter == "learn") %>%
-  # tab_row_group(group = "Plan your assessment", rows = Chapter == "plan") %>%
-  # tab_row_group(group = "Conduct your assessment", rows = Chapter == "conduct") %>%
-  # tab_row_group(group = "Inform using assessment results", rows = Chapter == "inform") 
-
-
-sched %>% 
-  filter(Chapter == "Learn") %>%
-  kbl() %>%
-  pack_rows("Chapter", 1, 2) %>%
-  kable_styling(latex_options = "basic", full_width = FALSE, position = "left") %>%
-  row_spec(1:3, background = "white")
+sched_gt <- sched %>%
+  group_by(Chapter) %>%
+  gt() %>%
+  tab_header(title = "OHI Onboarding Roadmap") %>%
+  tab_style(cell_text(align = "left", weight = "bold"), locations = cells_title()) %>%
+  tab_style(cell_fill("grey97"), locations = cells_row_groups()) %>%
+  tab_style(cell_fill("grey97"), 
+            locations = cells_column_labels(columns = gt::everything())) %>% # troubleshooted for hours: jihongzhang.org/post/study-notes-gt-package-and-format-table/
+  tab_style(cell_text(weight = "bold"), 
+            locations = cells_column_labels(columns = gt::everything())) %>%
+  tab_style(cell_fill("white"), locations = cells_body()) %>%
+  tab_style(cell_text(indent = pct(1.5)), locations = cells_body()) %>%
+  tab_style(cell_text(weight = "bold"), locations = cells_row_groups()) 
 
 
+sched_gt
 
 ```
 
