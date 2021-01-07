@@ -20,13 +20,16 @@ knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
 Hello! This book aims to help you get "on board" with Ocean Health Index (OHI) methods and practices as you lead your own independent OHI assessment (OHI+). It helps orient you to OHI training resources, with chapters organized in the same way as we introduce [OHI+ assessments](https://ohi-science.org/projects/ohi-plus/) at <http://ohi-science.org>.
 
 
-The **OHI Onboarding Roadmap** below outlines 20 hours of training resources that you can watch and read as self-paced learning as your time allows. The table provides quick links to videos and articles, and each book chapter provides further details and resources.
+## Onboarding Roadmap
+
+The **OHI Onboarding Roadmap** below outlines 20 hours of training resources that you can watch and read as self-paced learning as your time allows. Please visit each chapter in this book, which provides further details and resources.
 
 <br>
 
 ```{r setup-full-table}
 ## load libraries
 library(tidyverse)
+library(glue)
 library(gt)
 
 ## read in data
@@ -46,9 +49,9 @@ if(load_from_gsheets == TRUE) {
 ```{r full-table}
 ## wrangle
 sched <- sched_sheet %>%
-  mutate(Chapter = str_to_title(Chapter)) %>%
-  select(Chapter, Topic, Action, Minutes, Status) %>% 
-  filter(!is.na(Chapter))%>%
+  mutate(Action = glue("[{Action}]({Link1})")) %>%
+  select(Chapter, Topic, Action, Minutes) %>% 
+  filter(!is.na(Chapter), Chapter != "Revisit") %>%
   group_by(Chapter)
 
 ## create gt table
@@ -59,7 +62,13 @@ sched_gt
 
 ```
 
- and [OHI-Science YouTube](https://www.youtube.com/channel/UCWKfLAbARCmxmzqyaF-ROdg/videos).
+
+## OHI Quick Links
+
+- https://ohi-science.org/learn/
+- https://ohi-science.org/plan/
+- https://ohi-science.org/goals
+-  [OHI-Science YouTube](https://www.youtube.com/channel/UCWKfLAbARCmxmzqyaF-ROdg/videos).
 
 
 

@@ -1,12 +1,13 @@
-# Learn: What is the Ocean Health Index? {#learn}
+# Learn: What is the OHI? {#learn}
 
-The Ocean Health Index (OHI) is a [goal forward approach](https://ohi-science.org/news/goal-forward-approach)
-
-There is a lot to learn about the Ocean Health Index framework in order to best prepare you for leading your own assessment. We recommend reading and watching the following, to start with a broad overview and then get deeper into different aspects of OHI. Then, continue to come back to review these materials throughout your assessment. 
+There is a lot to learn about the Ocean Health Index framework to best prepare you for leading your own OHI+ assessment. We recommend reading and watching the following, to start with a broad overview and then get deeper into different aspects of OHI. Then, continue to come back to review these materials throughout your assessment. 
 
 ```{r setup-learn}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
+
 ## load libraries
 library(tidyverse)
+library(glue)
 library(gt)
 
 ## read in data
@@ -16,11 +17,11 @@ sched_sheet <- read_csv("schedule_sheet.csv")
 ```{r learn-table}
 ## wrangle
 sched <- sched_sheet %>%
-  mutate(Chapter = str_to_title(Chapter)) %>%
-  select(Chapter, Topic, Action, Minutes) %>% 
-  filter(!is.na(Chapter))%>%
-  group_by(Chapter) %>%
-  filter(Chapter == "Learn")
+  mutate(Action = glue("[{Action}]({Link1})")) %>%
+  filter(Chapter == "Learn") %>%
+  mutate(Section = row_number()) %>%
+  # TODO mutate(Section = glue Rmd header anchor link
+  select(Section, Topic, Action, Minutes)
 
 ## create gt table
 source("create_ohi_gt.R")
@@ -31,16 +32,41 @@ learn_gt
 ```
 
 
+## Intro to OHI
+
+**`r sched$Action[1]`.**
+
+**Drivers and implications of change in global ocean health** is a webinar given by OHI founding members Dr. Ben Halpern and Dr. Steve Katona. [more: It covers xyz, you will learn xyz.]
+
+## Intro to OHI+
+
+**`r sched$Action[2]`**
+
+**Transforming how we approach marine science for management** is a webinar given by OHI+ leads Dr. Julia Lowndes and Eric Pacheco. [more]
 
 
-- [**Title**](link) - (slides). Introduction to OHI framework and global assessments by Ben Halpern and Steve Katona.
-- Halpern & Katona etc
+## Intro to OHI Goals
+
+**`r sched$Action[3]`**
+
+**Intro to OHI Goals: A deep dive into global design** is a presentation developed by OHI senior analyst Melanie Frazier [more]
+
+## Best practices
+
+**`r sched$Action[4]`**
+
+**Best practices for assessing ocean health in multiple contexts using tailorable frameworks** is an open-access publication by Lowndes et al, 2015. 
+
+Lowndes JSS, Pacheco EJ, Best BD, Scarborough C, Longo C, Katona SK, Halpern BS. 2015. Best practices for assessing ocean health in multiple contexts using tailorable frameworks. *PeerJ* 3:e1503 <https://doi.org/10.7717/peerj.1503> 
 
 
-## Further reading {#ohi-further-reading}
+## Further learning {#learn-further}
 
 - [**What makes OHI stand out in the sea of environmental indicators?**](https://ohi-science.org/news/goal-forward-approach)
+  - It is a goal-forward approach
+<!---
 - https://ohi-science.org/learn/
 - https://ohi-science.org/plan/
 - https://ohi-science.org/goals
+--->
 

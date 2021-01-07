@@ -1,6 +1,12 @@
 welcome
+onboarding-roadmap
+ohi-quick-links
 learn
-ohi-further-reading
+intro-to-ohi
+intro-to-ohi-1
+intro-to-ohi-goals
+best-practices
+learn-further
 process
 training-ohi-process
 getting-help
