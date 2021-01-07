@@ -1,5 +1,40 @@
 # Inform {#inform}
 
-Who should read this chapter:
+TODO Intro including https://ohi-science.org/inform/
 
-https://ohi-science.org/inform/
+
+```{r setup-inform}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
+
+## load libraries
+library(tidyverse)
+library(glue)
+library(gt)
+
+## read in data
+sched_sheet <- read_csv("schedule_sheet.csv") 
+```
+
+```{r inform-table}
+## wrangle
+sched <- sched_sheet %>%
+  mutate(Action = glue("[{Action}]({Link1})")) %>%
+  filter(Chapter == "Inform") %>%
+  mutate(Section = row_number()) %>%
+  # TODO mutate(Section = glue Rmd header anchor link
+  select(Section, Topic, Action, Minutes)
+
+## create gt table
+source("create_ohi_gt.R")
+sub_gt <- create_ohi_gt(sched) %>%
+  tab_header(title = "OHI Onboarding Roadmap: Inform")
+
+sub_gt
+
+```
+
+## Toolbox communications
+
+**`r sched$Action[1]`.**
+
+## Further learning {#inform-further}

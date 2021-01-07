@@ -19,6 +19,7 @@ knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
 
 Hello! This book aims to help you get "on board" with Ocean Health Index (OHI) methods and practices as you lead your own independent OHI assessment (OHI+). It helps orient you to OHI training resources, with chapters organized in the same way as we introduce [OHI+ assessments](https://ohi-science.org/projects/ohi-plus/) at <http://ohi-science.org>.
 
+The OHI process has 4 steps: Learn, Plan, Conduct, and Inform. These steps are are overlapping and iterative: as you plan your assessment you will continue to learn, as you conduct your assessment you will need to modify your plan and keep team members and stakeholders informed.
 
 ## Onboarding Roadmap
 
@@ -69,7 +70,8 @@ sched_gt
 - https://ohi-science.org/plan/
 - https://ohi-science.org/goals
 -  [OHI-Science YouTube](https://www.youtube.com/channel/UCWKfLAbARCmxmzqyaF-ROdg/videos).
-
+- <https://ohi-science.org/resources/forum/> — Getting Help
+- Other training resources are linked from the [ohi-science.org training page](https://ohi-science.org/training/). 
 
 
 <!---

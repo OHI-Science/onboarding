@@ -1,24 +1,66 @@
 # Conduct: Skillbuilding and calculating scores {#conduct}
 
-Who should read this chapter:
 
-Other training resources are linked from the [ohi-science.org training page](https://ohi-science.org/training/). 
+TODO: Intro that also distinguishes: 
 
-OHI toolbox
+- http://ohi-science.org/data-science-training/
+- https://ohi-science.org/manual/ 
 
-http://ohi-science.org/data-science-training/
+```{r setup-conduct}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
 
-https://ohi-science.org/manual/ 
+## load libraries
+library(tidyverse)
+library(glue)
+library(gt)
 
-## Overview
+## read in data
+sched_sheet <- read_csv("schedule_sheet.csv") 
+```
 
-1.  Read [Our path to better science in less time using open data science tools](https://www.nature.com/articles/s41559-017-0160) (Lowndes et al 2017, Nature Ecology & Evolution). This will provide an overview of how we use the OHI Toolbox and why.
+```{r conduct-table}
+## wrangle
+sched <- sched_sheet %>%
+  mutate(Action = glue("[{Action}]({Link1})")) %>%
+  filter(Chapter == "Conduct") %>%
+  mutate(Section = row_number()) %>%
+  # TODO mutate(Section = glue Rmd header anchor link
+  select(Section, Topic, Action, Minutes)
 
+## create gt table
+source("create_ohi_gt.R")
+sub_gt <- create_ohi_gt(sched)  %>%
+  tab_header(title = "OHI Onboarding Roadmap: Conduct")
 
+sub_gt
 
+```
+
+## Intro to the OHI Toolbox
+
+**`r sched$Action[1]`.**
 
 The best place to start is with the [OHI Toolbox-training](http://ohi-science.org/toolbox-training/).
 
+
+## Intro to open data science
+
+**`r sched$Action[2]`.**
+
+## Create your OHI+ repo
+
+**`r sched$Action[3]`.**
+
+## Toolbox overview
+
+**`r sched$Action[4]`.**
+
+## Etc as I fine-tune
+
+
+## Further learning {#conduct-further}
+
+- Frazier et al Gapfilling
+
+
 The [OHI Manual](https://ohi-science.org/manual/) is a good reference document as well. (A bit of history: this is how the whole ohi-science.org website started; this was originally a PDF created from a Word Doc that we would email to interested groups).
-
-

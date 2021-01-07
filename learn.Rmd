@@ -25,9 +25,10 @@ sched <- sched_sheet %>%
 
 ## create gt table
 source("create_ohi_gt.R")
-learn_gt <- create_ohi_gt(sched)
+sub_gt <- create_ohi_gt(sched)  %>%
+  tab_header(title = "OHI Onboarding Roadmap: Learn")
 
-learn_gt
+sub_gt
 
 ```
 
@@ -36,13 +37,13 @@ learn_gt
 
 **`r sched$Action[1]`.**
 
-**Drivers and implications of change in global ocean health** is a webinar given by OHI founding members Dr. Ben Halpern and Dr. Steve Katona. [more: It covers xyz, you will learn xyz.]
+**Drivers and implications of change in global ocean health** is a webinar given by OHI founding members Dr. Ben Halpern and Dr. Steve Katona. [more paragraph(s): It covers xyz, you will learn xyz.]
 
 ## Intro to OHI+
 
 **`r sched$Action[2]`**
 
-**Transforming how we approach marine science for management** is a webinar given by OHI+ leads Dr. Julia Lowndes and Eric Pacheco. [more]
+**Transforming how we approach marine science for management** is a webinar given by OHI+ leads Dr. Julia Lowndes and Eric Pacheco. This provides an overview of what's involved with leading an OHI assessment and what to think about as you begin. [more]
 
 
 ## Intro to OHI Goals
@@ -62,8 +63,12 @@ Lowndes JSS, Pacheco EJ, Best BD, Scarborough C, Longo C, Katona SK, Halpern BS.
 
 ## Further learning {#learn-further}
 
-- [**What makes OHI stand out in the sea of environmental indicators?**](https://ohi-science.org/news/goal-forward-approach)
+1. [**What makes OHI stand out in the sea of environmental indicators?**](https://ohi-science.org/news/goal-forward-approach)
   - It is a goal-forward approach
+1. [Three Lessons for Using the Global Ocean Health Index to Assess Local Oceans](https://ohi-science.org/news/three-lessons-global). (Seifert 2019). 
+  - "Three interrelated things seem to stand out: include the right people from the start, fit the framework to the place, and align with existing regional efforts."
+  
+
 <!---
 - https://ohi-science.org/learn/
 - https://ohi-science.org/plan/

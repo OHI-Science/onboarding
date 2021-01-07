@@ -1,33 +1,75 @@
 # Plan: The OHI Process {#process}
 
-The OHI process has 4 steps: Learn, Plan, Conduct, and Inform. These steps are are overlapping and iterative: as you plan your assessment you will continue to learn, as you conduct your assessment you will need to modify your plan and keep team members and stakeholders informed.
-
 The OHI follows a very structured approach. There are core elements and approaches that you will not change and tailorable elements so that you can fit your needs. It's important to begin your OHI+ assessment in a way that organized and collaborative, expecting that team members might change and that methods might be revisited. Thus, working like a team and building in resilience from the beginning is critical: focus on documentation and sharing and avoid having only one person who knows or can do something. 
 
-## Training: OHI Process
+```{r setup-plan}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
 
-1.  Read [Best practices for assessing ocean health in multiple contexts using tailorable frameworks](https://peerj.com/articles/1503) (Lowndes et al 2015, PeerJ). This will provide an overview of what's involved with leading an OHI assessment and what to think about as you begin.
+## load libraries
+library(tidyverse)
+library(glue)
+library(gt)
 
-1. Read [Three Lessons for Using the Global Ocean Health Index to Assess Local Oceans](https://ohi-science.org/news/three-lessons-global). (Seifert 2019). "Three interrelated things seem to stand out: include the right people from the start, fit the framework to the place, and align with existing regional efforts."
+## read in data
+sched_sheet <- read_csv("schedule_sheet.csv") 
+```
+
+```{r plan-table}
+## wrangle
+sched <- sched_sheet %>%
+  mutate(Action = glue("[{Action}]({Link1})")) %>%
+  filter(Chapter == "Plan") %>%
+  mutate(Section = row_number()) %>%
+  # TODO mutate(Section = glue Rmd header anchor link
+  select(Section, Topic, Action, Minutes)
+
+## create gt table
+source("create_ohi_gt.R")
+sub_gt <- create_ohi_gt(sched) %>%
+  tab_header(title = "OHI Onboarding Roadmap: Plan")
+
+sub_gt
+
+```
+
+## Overview of Resources
+
+**`r sched$Action[1]`.**
+
+## Planning your assessment
+
+**`r sched$Action[2]`.**
+
+## Gathering and organizing data
+
+**`r sched$Action[3]`.**
+
+## Better science in less time
+
+**`r sched$Action[4]`.**
+
+**Our path to better science in less time using open data science tools** (Lowndes et al 2017, Nature Ecology & Evolution). This will provide an overview of how we use the OHI Toolbox and why.
+
+
+## Overview of the OHI Toolbox software
+
+**`r sched$Action[5]`.**
+
+
+
+## Further learning {#plan-further}
 
 1.  Read [Operationalizing better science in less time](https://docs.google.com/presentation/d/1OHe4C2B9cGnT9niSguXwsWiK0M2sDsdeNjTOLWAgBX4/edit?usp=sharing). These slides describe how OHI is about environmental assessments, but it's also about open data science and empowerment, resilience, and inclusion and the importance of teamwork. 
+1. [On Building Transparency and Trust for Healthy New England Seas](https://ohi-science.org/news/transparent-trust-new-england-seas)
+1. [Open data science for marine management](https://ohi-science.org/news/ohi-and-open-data-science) (blog)
+1. [What does scientific reproducibility look like?](https://ohi-science.org/news/scientific-reproducibility-with-fellows) (blog)
+1. [The OHI Toolbox is useful far beyond ocean management](https://ohi-science.org/news/what-is-the-ohi-toolbox) (blog)
 
+
+<!---
 1. Teams. *TODO*. team roles, seaside chats, have meeting notes, write down decisions, etc. OHI+ examples Onboarding transparency, stakeholder engagement, teams open data science
 
 This process is summarized on the [ohi-science.org OHI+ page](https://ohi-science.org/projects/ohi-plus/).
 
-## Getting help
+--->
 
-<https://ohi-science.org/resources/forum/>
-
-## Further reading
-
-### Transparency
-
--   [On Building Transparency and Trust for Healthy New England Seas](https://ohi-science.org/news/transparent-trust-new-england-seas)
-
-### Open data science
-
--   [Open data science for marine management](https://ohi-science.org/news/ohi-and-open-data-science) (blog)
--   [What does scientific reproducibility look like?](https://ohi-science.org/news/scientific-reproducibility-with-fellows) (blog)
--   [The OHI Toolbox is useful far beyond ocean management](https://ohi-science.org/news/what-is-the-ohi-toolbox) (blog)
