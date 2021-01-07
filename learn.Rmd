@@ -4,6 +4,35 @@ The Ocean Health Index (OHI) is a [goal forward approach](https://ohi-science.or
 
 There is a lot to learn about the Ocean Health Index framework in order to best prepare you for leading your own assessment. We recommend reading and watching the following, to start with a broad overview and then get deeper into different aspects of OHI. Then, continue to come back to review these materials throughout your assessment. 
 
+```{r setup-learn}
+## load libraries
+library(tidyverse)
+library(gt)
+
+## read in data
+sched_sheet <- read_csv("schedule_sheet.csv") 
+```
+
+```{r learn-table}
+## wrangle
+sched <- sched_sheet %>%
+  mutate(Chapter = str_to_title(Chapter)) %>%
+  select(Chapter, Topic, Action, Minutes) %>% 
+  filter(!is.na(Chapter))%>%
+  group_by(Chapter) %>%
+  filter(Chapter == "Learn")
+
+## create gt table
+source("create_ohi_gt.R")
+learn_gt <- create_ohi_gt(sched)
+
+learn_gt
+
+```
+
+
+
+
 - [**Title**](link) - (slides). Introduction to OHI framework and global assessments by Ben Halpern and Steve Katona.
 - Halpern & Katona etc
 
