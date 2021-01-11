@@ -21,7 +21,8 @@ sched_sheet <- read_csv("schedule_sheet.csv")
 ```{r conduct-table}
 ## wrangle
 sched <- sched_sheet %>%
-  mutate(Action = glue("[{Action}]({Link1})")) %>%
+  mutate(Action = case_when(!is.na(Link1) ~ glue("[{Action}]({Link1})"), 
+                            is.na(Link1) ~ Action)) %>%
   filter(Chapter == "Conduct") %>%
   mutate(Section = row_number()) %>%
   # TODO mutate(Section = glue Rmd header anchor link
