@@ -41,8 +41,18 @@ sub_gt
 
 **`r sched$Action[1]`.**
 
-The best place to start is with the [OHI Toolbox-training](http://ohi-science.org/toolbox-training/).
+This video walks through Chapter 8 of the [OHI Toolbox-training](http://ohi-science.org/toolbox-training/). It was recorded as a live-demo in 2018 to introduce OHI+ Kenya and OHI+ Tanzania teams to the Toolbox Workflow. Screensharing from RStudio and GitHub, it repeats the basic Toolbox workflow several times, using demo data, updated data, and updated models.
 
+Additional resources: 
+
+- <https://github.com/ohi-science/toolbox-demo>
+  <!--- TODO add the ao_poverty to the scenario_years, it's described in the video ~1:40h for Chapter 8 (Also an idea to clarify in Chapter 9 about deleting a goal) --->
+- <http://ohi-science.org/manual>
+<!---
+
+Is presented as a stand-alone
+Walks through prerequesites requieed: R,/RStudio/GH, and fork/clone download
+--->
 
 ## Intro to open data science
 
