@@ -33,29 +33,36 @@ sub_gt
 
 ```
 
+## Overview and welcome
+
+**`r sched$Action[1]`.**
+
+What to expect. 
+
+This follows [toolbox-training Chapter 2](https://ohi-science.org/toolbox-training/intro.html).
 
 ## Intro to OHI
 
-**`r sched$Action[1]`.**
+**`r sched$Action[2]`.**
 
 **Drivers and implications of change in global ocean health** is a webinar given by OHI founding members Dr. Ben Halpern and Dr. Steve Katona. [more paragraph(s): It covers xyz, you will learn xyz.]
 
 ## Intro to OHI+
 
-**`r sched$Action[2]`**
+**`r sched$Action[3]`**
 
 **Transforming how we approach marine science for management** is a webinar given by OHI+ leads Dr. Julia Lowndes and Eric Pacheco. This provides an overview of what's involved with leading an OHI assessment and what to think about as you begin. [more]
 
 
 ## Intro to OHI Goals
 
-**`r sched$Action[3]`**
+**`r sched$Action[4]`**
 
 **Intro to OHI Goals: A deep dive into global design** is a presentation developed by OHI senior analyst Melanie Frazier [more]
 
 ## Best practices
 
-**`r sched$Action[4]`**
+**`r sched$Action[5]`**
 
 **Best practices for assessing ocean health in multiple contexts using tailorable frameworks** is an open-access publication by Lowndes et al, 2015. 
 

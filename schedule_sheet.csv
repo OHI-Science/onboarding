@@ -1,27 +1,28 @@
-Topic,Title,Audience,Action,Minutes,Thing1,Link1,Thing2,Link2,Notes,Chapter,Status
-Intro to OHI: Drivers and implications of change in global ocean health,Drivers and implications of change in global ocean health,all,watch,45,video,https://www.openchannels.org/webinars/2019/drivers-and-implications-change-global-ocean-health-demonstrated-ocean-health-index,slides,https://docs.google.com/presentation/d/1KrVEMcDdGOH7xXYHys0LSnNyTUQv5WnNIR_OCK9Y7VU/edit?usp=sharing,NA,Learn,done
-Intro to OHI+: Transforming marine science for management,Transforming how we approach marine science for management,all,watch,45,video,https://www.openchannels.org/webinars/2019/using-ocean-health-index-integrated-tool-implementing-ebm-and-coastal-management,slides,https://docs.google.com/presentation/d/1MW36Q3YO7ovL5RrhyMTzMtzA0oN4dJukpAsInsuC6Qs/edit?usp=sharing,NA,Learn,done
-Intro to OHI Goals: A deep dive into global design,NA,all,watch,100,video,NA,slides,https://docs.google.com/presentation/d/1LjNg9hCTGm21LQm3i5-8BswEpqVvCFSLZWN_rq45pWg/edit?usp=sharing,NA,Learn,compile & record
-Best practices: Assessing ocean health using tailorable frameworks,NA,all,read,60,publication,https://peerj.com/articles/1503/,NA,NA,NA,Learn,done
-Overview of resources from ohi-science.org,NA,all,watch,20,NA,NA,NA,NA,"OHI websites, github, books, youtube, etc",Plan,compile & record
-Planning your assessment,NA,all,LIVE,60,NA,NA,NA,NA,combine with GlobalFramework_CountryOpportunities and Ning illustrations,Plan,compile to record live
-Gathering and organizing data,NA,all,LIVE,60,NA,NA,NA,NA,"Assessment process, toolbox training ch 3&4 (Ning planner)",Plan,compile to record live
-Better science in less time,NA,all,read,60,publication,https://www.nature.com/articles/s41559-017-0160,NA,NA,NA,Plan,done
-Overview of the OHI Toolbox software,NA,all,read,30,slides,https://docs.google.com/presentation/d/1WKzbvF-XQl3lGzEc44fp8azssod9BcY2wMaAO0ZhFmk/edit?usp=sharing,NA,NA,Helmholtz,Plan,done
-Intro to Toolbox,NA,tech team,watch,120,video,https://www.youtube.com/watch?v=gISsUvqVL_M,NA,NA,Kenya/Tanzania,Conduct,done
-Intro to open data science,NA,tech team,watch,270,video,https://www.youtube.com/playlist?list=PLX7J3qtjcll_4s2oaKHuWdRdBMJz7tBAU,e-book,http://ohi-science.org/data-science-training/,Camila videos,Conduct,done
-Create your repo,NA,tech team,watch,20,NA,NA,NA,NA,NA,Conduct,create & record
-Toolbox overview & prep data,NA,tech team,watch,60,NA,NA,e-book,https://ohi-science.org/toolbox-training/toolbox-ecosystem.html,Toolbox-training Ch 6-7,Conduct,check Kenya recording
-"Toolbox basic workflow, Presssures and Resilience",NA,tech team,LIVE,60,NA,NA,e-book,https://ohi-science.org/toolbox-training,Toolbox-training Ch 8-9,Conduct,check Kenya recording
-Toolbox advanced workflow,NA,tech team,LIVE,60,NA,NA,e-book,https://ohi-science.org/toolbox-training,Toolbox-training Ch 10,Conduct,record live
-Gapfilling,NA,tech team,read,20,NA,NA,slides,https://docs.google.com/presentation/d/1lp_kBSrisFjlXUZjcD7SuZlPLSvk97CCm0BzPDDmXzo/edit#slide=id.p1,NA,Conduct,done
-Toolbox communications,NA,tech team,watch,60,NA,NA,NA,NA,Toolbox-training Ch 11-12,Inform,compile & record
-Interpreting global scores for your planning (OHI Go),NA,NA,NA,NA,NA,NA,NA,NA,NA,Revisit,"to explore, update code"
-Gapfilling Frazier et al,NA,NA,NA,NA,NA,NA,NA,NA,NA,Revisit,NA
-NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,NA,NA,NA,NA,NA,NA,NA,NA,Live trainings:,NA,NA
-NA,NA,NA,NA,NA,NA,NA,NA,NA,1. all: best practices & planning,NA,NA
-NA,NA,NA,NA,NA,NA,NA,NA,NA,2. tech teams: toolbox-training,NA,NA
-NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,NA,NA,TOTAL HOURS,19.166666666666668,NA,NA,NA,NA,NA,NA,NA
-NA,NA,NA,NA,NA,NA,NA,NA,NA,Gage master slides slow,NA,NA
+Topic,Title,Audience,Action,Minutes,Thing1,Link1,Thing2,Link2,Notes,ToolboxTrainingChapter,Chapter,Status,...14
+Welcome and overview,NA,all,watch,10,video,NA,ch 2,https://ohi-science.org/toolbox-training/intro.html,What to expect,2,Learn,record,NA
+Intro to OHI: Drivers and implications of change in global ocean health,Drivers and implications of change in global ocean health,all,watch,45,video,https://www.openchannels.org/webinars/2019/drivers-and-implications-change-global-ocean-health-demonstrated-ocean-health-index,slides,https://docs.google.com/presentation/d/1KrVEMcDdGOH7xXYHys0LSnNyTUQv5WnNIR_OCK9Y7VU/edit?usp=sharing,NA,NA,Learn,done,NA
+Intro to OHI+: Transforming marine science for management,Transforming how we approach marine science for management,all,watch,45,video,https://www.openchannels.org/webinars/2019/using-ocean-health-index-integrated-tool-implementing-ebm-and-coastal-management,slides,https://docs.google.com/presentation/d/1MW36Q3YO7ovL5RrhyMTzMtzA0oN4dJukpAsInsuC6Qs/edit?usp=sharing,NA,NA,Learn,done,NA
+Intro to OHI Goals: A deep dive into global design,NA,all,read,100,slides,https://docs.google.com/presentation/d/1LjNg9hCTGm21LQm3i5-8BswEpqVvCFSLZWN_rq45pWg/edit?usp=sharing,video,NA,NA,NA,Learn,compile & record -- watch???,NA
+Best practices: Assessing ocean health using tailorable frameworks,NA,all,read,60,publication,https://peerj.com/articles/1503/,NA,NA,NA,NA,Learn,done,NA
+Overview of resources from ohi-science.org,NA,all,watch,20,NA,NA,NA,NA,"OHI websites, github, books, youtube, etc",NA,Plan,compile & record,NA
+Planning your assessment,NA,all,LIVE,60,NA,NA,NA,NA,combine with GlobalFramework_CountryOpportunities and Ning illustrations,NA,Plan,compile to record live,NA
+Gathering and organizing data,NA,all,LIVE,60,NA,NA,NA,NA,"Assessment process, toolbox training ch 3&4 (Ning planner)",34,Plan,compile to record live,NA
+Better science in less time,NA,all,read,60,publication,https://www.nature.com/articles/s41559-017-0160,NA,NA,NA,NA,Plan,done,NA
+Overview of OHI Toolbox workflow,NA,NA,watch,10,NA,NA,NA,NA,"Make this high-level think NOAA Openscapes. Include website creation, RMarkdown.",5,Conduct,create & record,NA
+Intro to open data science,NA,tech team,watch,270,video,https://www.youtube.com/playlist?list=PLX7J3qtjcll_4s2oaKHuWdRdBMJz7tBAU,e-book,http://ohi-science.org/data-science-training/,Camila videos,NA,Conduct,done,NA
+Create your repo,NA,tech team,watch,20,NA,NA,NA,NA,NA,NA,Conduct,create & record,NA
+Intro to Toolbox,NA,all,read,30,slides,https://docs.google.com/presentation/d/1WKzbvF-XQl3lGzEc44fp8azssod9BcY2wMaAO0ZhFmk/edit?usp=sharing,NA,NA,Helmholtz,6,Conduct,done,NA
+Preparing data for the Toolbox,NA,tech team,read,30,e-book,https://ohi-science.org/toolbox-training/prep-data.html,NA,NA,Toolbox-training Ch 7,7,NA,NA,NA
+Calculations: basic workflow,NA,tech team,watch,120,video,https://www.youtube.com/watch?v=gISsUvqVL_M,NA,NA,Kenya/Tanzania CH 8,8,Conduct,done,Chap
+Presssures and Resilience,NA,tech team,LIVE,60,NA,NA,e-book,https://ohi-science.org/toolbox-training,Toolbox-training Ch 9,9,Conduct,check Kenya recording,NA
+Calculations: advanced workflow,NA,tech team,LIVE,60,NA,NA,e-book,https://ohi-science.org/toolbox-training,Toolbox-training Ch 10,10,Conduct,record live,NA
+Gapfilling,NA,tech team,read,20,slides,https://docs.google.com/presentation/d/1lp_kBSrisFjlXUZjcD7SuZlPLSvk97CCm0BzPDDmXzo/edit#slide=id.p1,Frazier et al,NA,NA,NA,Conduct,done,NA
+Toolbox communications,NA,tech team,watch,60,NA,NA,NA,NA,Toolbox-training Ch 11-12,NA,Inform,compile & record,NA
+Interpreting global scores for your planning (OHI Go),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Revisit,"to explore, update code",NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,Live trainings:,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,1. all: best practices & planning,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,2. tech teams: toolbox-training,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,TOTAL HOURS,18.833333333333332,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA,NA,NA,Gage master slides slow,NA,NA,NA,NA

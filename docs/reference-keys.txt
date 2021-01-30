@@ -2,6 +2,7 @@ welcome
 onboarding-roadmap
 ohi-quick-links
 learn
+overview-and-welcome
 intro-to-ohi
 intro-to-ohi-1
 intro-to-ohi-goals
