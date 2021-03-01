@@ -2,6 +2,8 @@
 
 There is a lot to learn about the Ocean Health Index framework to best prepare you for leading your own OHI+ assessment. We recommend reading and watching the following, to start with a broad overview and then get deeper into different aspects of OHI. Then, continue to come back to review these materials throughout your assessment. 
 
+<br>
+
 ```{r setup-learn}
 knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
 
@@ -33,38 +35,36 @@ sub_gt
 
 ```
 
-## Overview and welcome
-
-**`r sched$Action[1]`.**
-
-What to expect. 
-
-This follows [toolbox-training Chapter 2](https://ohi-science.org/toolbox-training/intro.html).
-
 ## Intro to OHI
 
-**`r sched$Action[2]`.**
+**`r sched$Action[1]`**
 
-**Drivers and implications of change in global ocean health** is a webinar given by OHI founding members Dr. Ben Halpern and Dr. Steve Katona. [more paragraph(s): It covers xyz, you will learn xyz.]
+This webinar by OHI founding scientists Dr. Ben Halpern and Dr. Steve Katona introduces the OHI through describing details of the fifth annual global assessment. They discuss changes in OHI scores over five years, possible causes and consequences of those changes, challenges and opportunities for composite indicators to incorporate the best available science each year, and lessons learned in repeating and improving the OHI assessment each year.
 
 ## Intro to OHI+
 
-**`r sched$Action[3]`**
+**`r sched$Action[2]`**
 
-**Transforming how we approach marine science for management** is a webinar given by OHI+ leads Dr. Julia Lowndes and Eric Pacheco. This provides an overview of what's involved with leading an OHI assessment and what to think about as you begin. [more]
+This webinar by OHI+ leads Dr. Julia Lowndes and Eric Pacheco provides an overview of what is involved with leading an OHI assessment and what to think about as you begin. The OHI's standardized structure is repeatable and familiar across assessment jurisdictions but it is flexible to represent the important social and ecological characteristics, values, and priorities of the area assessed. Independent groups are able to lead assessments within their own waters, deciding what is important to measure and which data to include while building directly from the experiences and methods from other OHI assessments.
 
 
 ## Intro to OHI Goals
 
-**`r sched$Action[4]`**
+**`r sched$Action[3]`**
 
-**Intro to OHI Goals: A deep dive into global design** is a presentation developed by OHI senior analyst Melanie Frazier [more]
+These slides developed by OHI senior analyst Melanie Frazier describe the logic behind global goal models and how to think the modifying them. See also <https://ohi-science.org/goals> for comparisons of several goal models developed in OHI+ assessments.
+
 
 ## Best practices
 
-**`r sched$Action[5]`**
+**`r sched$Action[4]`**
 
-**Best practices for assessing ocean health in multiple contexts using tailorable frameworks** is an open-access publication by Lowndes et al, 2015. 
+This publication describes best practices for conducting assessments: 
+
+- Incorporate key characteristics and priorities into the assessment framework design before gathering information
+- Strategically define spatial boundaries to balance information availability and decision-making scales
+- Maintain the key characteristics and priorities of the assessment framework regardless of information limitations
+- Document and share the assessment process, methods, and tools. 
 
 Lowndes JSS, Pacheco EJ, Best BD, Scarborough C, Longo C, Katona SK, Halpern BS. 2015. Best practices for assessing ocean health in multiple contexts using tailorable frameworks. *PeerJ* 3:e1503 <https://doi.org/10.7717/peerj.1503> 
 
