@@ -35,7 +35,7 @@ library(gt)
 
 ## read in data
 sched_sheet <- read_csv("schedule_sheet.csv") 
-load_from_gsheets = FALSE
+load_from_gsheets = TRUE
 
 if(load_from_gsheets == TRUE) {
   library(googlesheets4) # install.packages("googlesheets4")
@@ -54,6 +54,7 @@ sched <- sched_sheet %>%
                             is.na(Link1) ~ Action)) %>%
   select(Chapter, Topic, Action, Minutes) %>% 
   filter(!is.na(Chapter), Chapter != "Revisit") %>%
+  filter(!is.na(Chapter), Chapter != "OMIT") %>%
   group_by(Chapter)
 
 ## create gt table
@@ -71,7 +72,7 @@ sched_gt
 - https://ohi-science.org/plan/
 - https://ohi-science.org/goals
 -  [OHI-Science YouTube](https://www.youtube.com/channel/UCWKfLAbARCmxmzqyaF-ROdg/videos).
-- <https://ohi-science.org/resources/forum/> — Getting Help
+- <https://ohi-science.org/resources/forum/>
 - Other training resources are linked from the [ohi-science.org training page](https://ohi-science.org/training/). 
 
 

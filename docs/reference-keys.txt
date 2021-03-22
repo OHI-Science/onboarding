@@ -2,10 +2,10 @@ welcome
 onboarding-roadmap
 ohi-quick-links
 learn
-intro-to-ohi
-intro-to-ohi-1
-intro-to-ohi-goals
-best-practices
+intro-to-ohi-drivers-and-implications-of-change-in-global-ocean-health
+intro-to-ohi-transforming-marine-science-for-management
+tailoring-the-ohi-to-the-u.s.-northeast
+best-practices-assessing-ocean-health-using-tailorable-frameworks
 learn-further
 process
 overview-of-resources

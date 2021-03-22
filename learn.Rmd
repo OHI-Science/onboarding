@@ -1,6 +1,6 @@
 # Learn: What is the OHI? {#learn}
 
-There is a lot to learn about the Ocean Health Index framework to best prepare you for leading your own OHI+ assessment. We recommend reading and watching the following, to start with a broad overview and then get deeper into different aspects of OHI. Then, continue to come back to review these materials throughout your assessment. 
+There is a lot to learn about the Ocean Health Index framework to best prepare you for leading your own OHI+ assessment. We recommend watching and reading the following, which starts with a broad overview and then goes deeper into different aspects of OHI and how to think about planning your own OHI+ assessment. As you progress, continue to come back to review these materials throughout your assessment. 
 
 <br>
 
@@ -35,27 +35,27 @@ sub_gt
 
 ```
 
-## Intro to OHI
+## `r sched$Topic[1]`
 
 **`r sched$Action[1]`**
 
 This webinar by OHI founding scientists Dr. Ben Halpern and Dr. Steve Katona introduces the OHI through describing details of the fifth annual global assessment. They discuss changes in OHI scores over five years, possible causes and consequences of those changes, challenges and opportunities for composite indicators to incorporate the best available science each year, and lessons learned in repeating and improving the OHI assessment each year.
 
-## Intro to OHI+
+## `r sched$Topic[2]`
 
 **`r sched$Action[2]`**
 
 This webinar by OHI+ leads Dr. Julia Lowndes and Eric Pacheco provides an overview of what is involved with leading an OHI assessment and what to think about as you begin. The OHI's standardized structure is repeatable and familiar across assessment jurisdictions but it is flexible to represent the important social and ecological characteristics, values, and priorities of the area assessed. Independent groups are able to lead assessments within their own waters, deciding what is important to measure and which data to include while building directly from the experiences and methods from other OHI assessments.
 
 
-## Intro to OHI Goals
+## `r sched$Topic[3]`
 
 **`r sched$Action[3]`**
 
-These slides developed by OHI senior analyst Melanie Frazier describe the logic behind global goal models and how to think the modifying them. See also <https://ohi-science.org/goals> for comparisons of several goal models developed in OHI+ assessments.
+These slides developed by OHI+ Northeast leads Courtney Scarborough and Jamie Afflerbach Montgomery describe the thinking and logic behind tailoring global goal models to smaller spatial scales, in this case the Northeastern United States. See also <https://ohi-science.org/goals> for comparisons of several goal models developed in OHI+ assessments.
 
 
-## Best practices
+## `r sched$Topic[4]`
 
 **`r sched$Action[4]`**
 
@@ -71,10 +71,10 @@ Lowndes JSS, Pacheco EJ, Best BD, Scarborough C, Longo C, Katona SK, Halpern BS.
 
 ## Further learning {#learn-further}
 
-1. [**What makes OHI stand out in the sea of environmental indicators?**](https://ohi-science.org/news/goal-forward-approach)
-  - It is a goal-forward approach
-1. [Three Lessons for Using the Global Ocean Health Index to Assess Local Oceans](https://ohi-science.org/news/three-lessons-global). (Seifert 2019). 
-  - "Three interrelated things seem to stand out: include the right people from the start, fit the framework to the place, and align with existing regional efforts."
+- [**What makes OHI stand out in the sea of environmental indicators?**](https://ohi-science.org/news/goal-forward-approach) (Seifert 2018).
+    - It is a goal-forward approach
+- [Three Lessons for Using the Global Ocean Health Index to Assess Local Oceans](https://ohi-science.org/news/three-lessons-global). (Seifert 2019). 
+    - "Three interrelated things seem to stand out: include the right people from the start, fit the framework to the place, and align with existing regional efforts."
   
 
 <!---
