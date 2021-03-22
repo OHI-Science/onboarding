@@ -58,11 +58,12 @@ This publication by the OHI team shares how several free software tools fundamen
 
 ## Further learning {#plan-further}
 
-1.  [Operationalizing better science in less time](https://docs.google.com/presentation/d/1OHe4C2B9cGnT9niSguXwsWiK0M2sDsdeNjTOLWAgBX4/edit?usp=sharing),  (Lowndes 2020). These slides describe how OHI is about environmental assessments, but it's also about open data science and empowerment, resilience, and inclusion and the importance of teamwork. 
-1. [On Building Transparency and Trust for Healthy New England Seas](https://ohi-science.org/news/transparent-trust-new-england-seas) (Seifert 2019)
-1. [Open data science for marine management](https://ohi-science.org/news/ohi-and-open-data-science) (Lowndes 2017)
-1. [What does scientific reproducibility look like?](https://ohi-science.org/news/scientific-reproducibility-with-fellows) (O'Reilly & Seifert 2018)
-1. [The OHI Toolbox is useful far beyond ocean management](https://ohi-science.org/news/what-is-the-ohi-toolbox) (Lowndes 2018)
+- [Operationalizing better science in less time](https://docs.google.com/presentation/d/1OHe4C2B9cGnT9niSguXwsWiK0M2sDsdeNjTOLWAgBX4/edit?usp=sharing),  (Lowndes 2020). These slides describe how OHI is about environmental assessments, but it's also about open data science and empowerment, resilience, and inclusion and the importance of teamwork. 
+- [On Building Transparency and Trust for Healthy New England Seas](https://ohi-science.org/news/transparent-trust-new-england-seas) (Seifert 2019)
+- [Open data science for marine management](https://ohi-science.org/news/ohi-and-open-data-science) (Lowndes 2017)
+- [What does scientific reproducibility look like?](https://ohi-science.org/news/scientific-reproducibility-with-fellows) (O'Reilly & Seifert 2018)
+- [The OHI Toolbox is useful far beyond ocean management](https://ohi-science.org/news/what-is-the-ohi-toolbox) (Lowndes 2018)
+- <https://ohi-science.org/plan>
 
 
 <!---

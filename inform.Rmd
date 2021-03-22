@@ -1,7 +1,8 @@
-# Inform {#inform}
+# Inform: Communicating OHI {#inform}
 
-TODO Intro including https://ohi-science.org/inform/
+Throughout your assessment, communicating the process and decision making as well as the results is important, and doing so for a wide range of audience, from academics to policy makers. In addition to the communication channels already within your strategy, you are able to use the OHI Toolbox to create a website to share this information online.
 
+<br>
 
 ```{r setup-inform}
 knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
@@ -34,8 +35,12 @@ sub_gt
 
 ```
 
-## Toolbox communications
+## `r sched$Topic[1]`
 
 **`r sched$Action[1]`.**
 
+This Chapter of the Toolbox Training describes how your GitHub repository has a free accompanying website that you can use to communicate your work to the audiences you need to reach. You can modify and use this website from the very beginning to identify team members, share workshop agendas, and increasingly, to share the technical decisions underlying your OHI+ assessment, the data, the scores, and what it means.
+
 ## Further learning {#inform-further}
+
+- <https://ohi-science.org/inform>

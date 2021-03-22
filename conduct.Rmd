@@ -1,10 +1,7 @@
-# Conduct: Skillbuilding and calculating scores {#conduct}
+# Conduct: The OHI Toolbox {#conduct}
 
 
-TODO: Intro that also distinguishes: 
-
-- http://ohi-science.org/data-science-training/
-- https://ohi-science.org/manual/ 
+OHI assessments are highly collaboratative, and include information and perspectives from different dicisplines and stakeholders. For OHI assessments to be most efficient and transparent, we emphasize reproducibility and collaborative open data science tools. You will use the OHI Toolbox to calculate OHI scores for your assessment area, which leverages open data science tools: R, RStudio, git, and GitHub. Below are resources for your team to learn, which are good to begin as early as possible. 
 
 ```{r setup-conduct}
 knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
@@ -37,41 +34,53 @@ sub_gt
 
 ```
 
-## Intro to the OHI Toolbox
+## `r sched$Topic[1]`
 
 **`r sched$Action[1]`.**
 
-This video walks through Chapter 8 of the [OHI Toolbox-training](http://ohi-science.org/toolbox-training/). It was recorded as a live-demo in 2018 to introduce OHI+ Kenya and OHI+ Tanzania teams to the Toolbox Workflow. Screensharing from RStudio and GitHub, it repeats the basic Toolbox workflow several times, using demo data, updated data, and updated models.
+This overview reviews the core OHI features for the Framework and the Toolbox to help guide you as you tailor your assessment. It also describes recommended collaborative software (Google Drive) and required open source software (R, RStudio, GitHub) that you will use in your assessment.
 
-Additional resources: 
-
-- <https://github.com/ohi-science/toolbox-demo>
-  <!--- TODO add the ao_poverty to the scenario_years, it's described in the video ~1:40h for Chapter 8 (Also an idea to clarify in Chapter 9 about deleting a goal) --->
-- <http://ohi-science.org/manual>
-<!---
-
-Is presented as a stand-alone
-Walks through prerequesites requieed: R,/RStudio/GH, and fork/clone download
---->
-
-## Intro to open data science
+## `r sched$Topic[2]`
 
 **`r sched$Action[2]`.**
 
-## Create your OHI+ repo
+These slides introduce the software and philosophy behind the OHI Toolbox. It emphasizes how OHI teams should establish collaborative practices that leverage open source software to make assessments more organized and transparent. 
+
+
+## `r sched$Topic[3]`
 
 **`r sched$Action[3]`.**
 
-## Toolbox overview
+These videos follow the OHI training book [Introduction to open data science](http://ohi-science.org/data-science-training/). It is a hands-on introduction to a collaborative workflow with R, RStudio, Git, and GitHub, as described in [Our path to better science in less time using open data science tools](https://www.nature.com/articles/s41559-017-0160) (Lowndes et al. 2017). This is recommended for analysts and collaborators working with data for OHI+ assessments.
+
+## `r sched$Topic[4]`
 
 **`r sched$Action[4]`.**
 
-## Etc as I fine-tune
+This video walks through Chapter 8 of the [OHI Toolbox-training](http://ohi-science.org/toolbox-training/). It was recorded as a live-demo in 2018 to introduce OHI+ Kenya and OHI+ Tanzania teams to the Toolbox Workflow. Screensharing from RStudio and GitHub, it repeats the basic Toolbox workflow several times, using demo data, updated data, and updated models.
 
+
+## `r sched$Topic[5]`
+
+**`r sched$Action[5]`.**
+
+This Chapter of the Toolbox Training describes more advanced operations using the Toolbox. Additonal information is included in [Chapter 9: Pressures and Resilience](https://ohi-science.org/toolbox-training/press-resil.html) and in the OHI Manual starting with [Modifying goal models](https://ohi-science.org/manual/#modifying-goal-models). 
+
+## `r sched$Topic[6]`
+
+**`r sched$Action[6]`.**
+
+These slides introduce uncertainty in the Ocean Health Index and how to approach gapfilling missing data in a responsible way. These slides accompany a publication [Mapping Uncertainty Due to Missing Data in the Global Ocean Health Index](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0160377) (Frazier, Longo & Halpern 2016). 
 
 ## Further learning {#conduct-further}
 
-- Frazier et al Gapfilling
+- The [OHI Manual](https://ohi-science.org/manual/) is a good reference document as well. 
+    - A bit of history: this is how the whole ohi-science.org website started; this was originally a PDF created from a Word Doc that we would email to interested groups and became a living resource whose current version is always available online.
+
+<br>
 
 
-The [OHI Manual](https://ohi-science.org/manual/) is a good reference document as well. (A bit of history: this is how the whole ohi-science.org website started; this was originally a PDF created from a Word Doc that we would email to interested groups).
+<!---
+  TODO add the ao_poverty to the scenario_years, it's described in the video ~1:40h for Chapter 8 (Also an idea to clarify in Chapter 9 about deleting a goal)
+- <http://ohi-science.org/manual>
+--->
