@@ -1,6 +1,8 @@
-# Plan: The OHI Process {#process}
+# Plan: The OHI Process {#plan}
 
-The OHI follows a very structured approach. There are core elements and approaches that you will not change and tailorable elements so that you can fit your needs. It's important to begin your OHI+ assessment in a way that organized and collaborative, expecting that team members might change and that methods might be revisited. Thus, working like a team and building in resilience from the beginning is critical: focus on documentation and sharing and avoid having only one person who knows or can do something. 
+The OHI follows a very structured approach. There are core elements and approaches that you will not change, as well as tailorable elements that you can fit your needs. It's important to begin your OHI+ assessment in a way that organized, collaborative, and iterative, expecting that team members might change and that methods might be revisited. Thus, working like a team and building in resilience from the beginning is critical: focus on documentation and sharing and avoid having only one person who knows or can do something.
+
+<br>
 
 ```{r setup-plan}
 knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
@@ -33,43 +35,37 @@ sub_gt
 
 ```
 
-## Overview of Resources
+## `r sched$Topic[1]`
 
 **`r sched$Action[1]`.**
 
-## Planning your assessment
+These slides developed by OHI+ Northeast leads Courtney Scarborough and Jamie Afflerbach Montgomery describe the thinking and logic behind tailoring global goal models to smaller spatial scales, in this case the Northeastern United States. See also <https://ohi-science.org/goals> for comparisons of several goal models developed in OHI+ assessments.
+
+## `r sched$Topic[2]`
 
 **`r sched$Action[2]`.**
 
-## Gathering and organizing data
+Chapter 3 of the Toolbox Training helps orient your thinking around how to plan and gather data. Additionally, the [OHI Data Planner](https://ohi-science.org/toolbox-training/planner-guide.html) presented in Chapter 4 of the Toolbox Training is a spreadsheet that you can copy/download and use to help organize and prioritize your thinking around data available for your assessment.
+
+## `r sched$Topic[3]`
 
 **`r sched$Action[3]`.**
 
-## Better science in less time
+This publication by the OHI team shares how several free software tools fundamentally upgraded the approach to collaborative research, making the entire OHI workflow more transparent and streamlined. It provides   background and theory to how we use the OHI Toolbox and why.
 
-**`r sched$Action[4]`.**
-
-**Our path to better science in less time using open data science tools** (Lowndes et al 2017, Nature Ecology & Evolution). This will provide an overview of how we use the OHI Toolbox and why.
-
-
-## Overview of the OHI Toolbox software
-
-**`r sched$Action[5]`.**
-
+**Our path to better science in less time using open data science tools** (Lowndes et al 2017, *Nature Ecology & Evolution*).
 
 
 ## Further learning {#plan-further}
 
-1.  Read [Operationalizing better science in less time](https://docs.google.com/presentation/d/1OHe4C2B9cGnT9niSguXwsWiK0M2sDsdeNjTOLWAgBX4/edit?usp=sharing). These slides describe how OHI is about environmental assessments, but it's also about open data science and empowerment, resilience, and inclusion and the importance of teamwork. 
-1. [On Building Transparency and Trust for Healthy New England Seas](https://ohi-science.org/news/transparent-trust-new-england-seas)
-1. [Open data science for marine management](https://ohi-science.org/news/ohi-and-open-data-science) (blog)
-1. [What does scientific reproducibility look like?](https://ohi-science.org/news/scientific-reproducibility-with-fellows) (blog)
-1. [The OHI Toolbox is useful far beyond ocean management](https://ohi-science.org/news/what-is-the-ohi-toolbox) (blog)
+1.  [Operationalizing better science in less time](https://docs.google.com/presentation/d/1OHe4C2B9cGnT9niSguXwsWiK0M2sDsdeNjTOLWAgBX4/edit?usp=sharing),  (Lowndes 2020). These slides describe how OHI is about environmental assessments, but it's also about open data science and empowerment, resilience, and inclusion and the importance of teamwork. 
+1. [On Building Transparency and Trust for Healthy New England Seas](https://ohi-science.org/news/transparent-trust-new-england-seas) (Seifert 2019)
+1. [Open data science for marine management](https://ohi-science.org/news/ohi-and-open-data-science) (Lowndes 2017)
+1. [What does scientific reproducibility look like?](https://ohi-science.org/news/scientific-reproducibility-with-fellows) (O'Reilly & Seifert 2018)
+1. [The OHI Toolbox is useful far beyond ocean management](https://ohi-science.org/news/what-is-the-ohi-toolbox) (Lowndes 2018)
 
 
 <!---
-1. Teams. *TODO*. team roles, seaside chats, have meeting notes, write down decisions, etc. OHI+ examples Onboarding transparency, stakeholder engagement, teams open data science
-
 This process is summarized on the [ohi-science.org OHI+ page](https://ohi-science.org/projects/ohi-plus/).
 
 --->

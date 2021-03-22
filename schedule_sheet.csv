@@ -1,12 +1,12 @@
 Topic,Title,Audience,Action,Minutes,Thing1,Link1,Thing2,Link2,Notes,ToolboxTrainingChapter,Chapter,Status,...14
 Welcome and overview,NA,all,read,NA,NA,NA,video,NA,What to expect,0.2,Revisit,record,NA
-Intro to OHI: Drivers and implications of change in global ocean health,Drivers and implications of change in global ocean health,all,watch,45,video,https://www.openchannels.org/webinars/2019/drivers-and-implications-change-global-ocean-health-demonstrated-ocean-health-index,slides,https://docs.google.com/presentation/d/1KrVEMcDdGOH7xXYHys0LSnNyTUQv5WnNIR_OCK9Y7VU/edit?usp=sharing,NA,NA,Learn,done,NA
+Intro to OHI: Drivers & implications of change in global ocean health,Drivers and implications of change in global ocean health,all,watch,45,video,https://www.openchannels.org/webinars/2019/drivers-and-implications-change-global-ocean-health-demonstrated-ocean-health-index,slides,https://docs.google.com/presentation/d/1KrVEMcDdGOH7xXYHys0LSnNyTUQv5WnNIR_OCK9Y7VU/edit?usp=sharing,NA,NA,Learn,done,NA
 Intro to OHI+: Transforming marine science for management,Transforming how we approach marine science for management,all,watch,45,video,https://www.openchannels.org/webinars/2019/using-ocean-health-index-integrated-tool-implementing-ebm-and-coastal-management,slides,https://docs.google.com/presentation/d/1MW36Q3YO7ovL5RrhyMTzMtzA0oN4dJukpAsInsuC6Qs/edit?usp=sharing,NA,NA,Learn,done,NA
-Intro to OHI Goals: A deep dive into global design,NA,all,read,100,slides,NA,video,https://docs.google.com/presentation/d/1LjNg9hCTGm21LQm3i5-8BswEpqVvCFSLZWN_rq45pWg/edit?usp=sharing,also video?,NA,OMIT,compile & record -- watch???,NA
-Tailoring the OHI+ to the U.S. Northeast,NA,all,read,45,slides,https://docs.google.com/presentation/d/1u1l0a39p4wv1-5miaBpzWb-s-xo_yb0EgwwGAiqvCcM/edit?usp=sharing,NA,NA,NA,NA,Learn,NA,NA
+Intro to OHI Goals: A deep dive into global design,NA,all,read,NA,NA,NA,video,https://docs.google.com/presentation/d/1LjNg9hCTGm21LQm3i5-8BswEpqVvCFSLZWN_rq45pWg/edit?usp=sharing,also video?,NA,OMIT,NA,NA
 Best practices: Assessing ocean health using tailorable frameworks,NA,all,read,60,publication,https://peerj.com/articles/1503/,NA,NA,NA,NA,Learn,done,NA
 Overview of resources from ohi-science.org,NA,all,watch,20,NA,NA,NA,NA,"OHI websites, github, books, youtube, etc",NA,Revisit,compile & record,NA
-Planning your assessment,NA,all,watch,60,NA,NA,NA,NA,was LIVE. combine with GlobalFramework_CountryOpportunities and Ning illustrations,NA,Plan,compile to record live,NA
+Planning your assessment,NA,all,watch,NA,NA,NA,NA,NA,was LIVE. combine with GlobalFramework_CountryOpportunities and Ning illustrations,NA,OMIT,NA,NA
+Tailoring the OHI+ to the U.S. Northeast,NA,all,read,45,slides,https://docs.google.com/presentation/d/1u1l0a39p4wv1-5miaBpzWb-s-xo_yb0EgwwGAiqvCcM/edit?usp=sharing,NA,NA,NA,NA,Plan,NA,NA
 Gathering and organizing data,NA,all,read,60,e-book,https://ohi-science.org/toolbox-training/gathering-data.html,NA,NA,"was LIVE. Assessment process, toolbox training ch 3&4 (Ning planner)",34,Plan,compile to record live,NA
 Better science in less time,NA,all,read,60,publication,https://www.nature.com/articles/s41559-017-0160,NA,NA,NA,NA,Plan,done,NA
 Overview of OHI Toolbox workflow,NA,NA,watch,10,ch 2,https://ohi-science.org/toolbox-training/intro.html,NA,NA,"Make this high-level think NOAA Openscapes. Include website creation, RMarkdown.",25,Revisit,create & record,NA
@@ -25,5 +25,5 @@ NA,NA,NA,NA,NA,NA,NA,NA,NA,Live trainings:,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,1. all: best practices & planning,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,2. tech teams: toolbox-training,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,NA,NA,TOTAL HOURS,19.583333333333332,NA,NA,NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,TOTAL HOURS,16.916666666666668,NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA,NA,NA,Gage master slides slow,NA,NA,NA,NA
