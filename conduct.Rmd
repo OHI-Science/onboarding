@@ -1,7 +1,7 @@
 # Conduct: The OHI Toolbox {#conduct}
 
 
-OHI assessments are highly collaboratative, and include information and perspectives from different dicisplines and stakeholders. For OHI assessments to be most efficient and transparent, we emphasize reproducibility and collaborative open data science tools. You will use the OHI Toolbox to calculate OHI scores for your assessment area, which leverages open data science tools: R, RStudio, git, and GitHub. Below are resources for your team to learn, which are good to begin as early as possible. 
+OHI assessments are highly collaborative, and include information and perspectives from different disciplines and stakeholders. For OHI assessments to be most efficient and transparent, we emphasize reproducibility and collaborative open data science tools. You will use the OHI Toolbox to calculate OHI scores for your assessment area, which leverages open data science tools: R, RStudio, git, and GitHub. Below are resources for your team to learn, which are good to begin as early as possible. 
 
 ```{r setup-conduct}
 knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
@@ -64,7 +64,7 @@ This video walks through Chapter 8 of the [OHI Toolbox-training](http://ohi-scie
 
 **`r sched$Action[5]`.**
 
-This Chapter of the Toolbox Training describes more advanced operations using the Toolbox. Additonal information is included in [Chapter 9: Pressures and Resilience](https://ohi-science.org/toolbox-training/press-resil.html) and in the OHI Manual starting with [Modifying goal models](https://ohi-science.org/manual/#modifying-goal-models). 
+This Chapter of the Toolbox Training describes more advanced operations using the Toolbox. Additional information is included in [Chapter 9: Pressures and Resilience](https://ohi-science.org/toolbox-training/press-resil.html) and in the OHI Manual starting with [Modifying goal models](https://ohi-science.org/manual/#modifying-goal-models). 
 
 ## `r sched$Topic[6]`
 
