@@ -1,7 +1,19 @@
 # Appendix 1: Global assessments {#global}
 
-The OHI team at NCEAS leads global OHI assessments annually; we have iterated and refined our approaches since 2012. . The OHI+ guidance in the previous chapters of this book build from our experiences leading global assessments as well as advising OHI+ assessments. While global assessments are much more complex than most OHI+ assessments, global assessment onboarding is included here for reference.
+The OHI team at NCEAS leads global OHI assessments annually; we have iterated and refined our approaches since 2012: <http://ohi-science.org/ohi-global>. The OHI+ guidance in the previous chapters of this book build from our experiences leading global assessments as well as advising OHI+ assessments. While global assessments are much more complex than most OHI+ assessments, global assessment onboarding is included here for reference. 
 
-http://ohi-science.org/ohi-global-guide/index.html
+The [**OHI Global Assessment Guide**](http://ohi-science.org/ohi-global-guide/index.html) content includes:
 
-- populate from syllabi
+- How to initialize a new assessment
+- Thorough instructions for data prep, including how to:
+    - Access and organize files
+    - Structure data prep scripts
+    - Gapfill data
+    - Check results
+- Update data layers to OHI global and recalculate scores
+- Finalize the assessment, including how to:
+    - Review scores
+    - Create bibliography
+    - Update metadata
+    - Create methods and results documents
+    - Upload to repository

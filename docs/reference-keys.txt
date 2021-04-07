@@ -1,5 +1,6 @@
 welcome
 onboarding-roadmap
+citation-policy
 ohi-quick-links
 learn
 intro-to-ohi-drivers-implications-of-change-in-global-ocean-health

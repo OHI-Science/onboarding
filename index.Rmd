@@ -65,6 +65,9 @@ sched_gt
 
 ```
 
+## Citation policy
+
+Please see our [citation policy](https://ohi-science.org/citation-policy/) to cite the Ocean Health Index and assessment resources. 
 
 ## OHI Quick Links
 
